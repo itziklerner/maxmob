@@ -1,0 +1,47 @@
+<div data-role="page" data-add-back-btn="true" id="alternatives" data-theme="w">
+    <div data-role="header" class="maxim-header"  data-theme="w">
+        <h1>Alternatives</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+    </div>
+    <div data-role="content" class="ui-content-xx">
+        <div class="maxim-title" align="center" id="head-select-device">
+            <div class="ui-grid-a">
+                <div class="ui-block-a"><img src="../images/logo_maxim.png"/></div>
+                <div class="ui-block-b">Cross reference</div>
+            </div><!-- /grid-a -->
+            <div class="ui-grid-b color-row">
+                <div class="ui-block-a"></div>
+                <div class="ui-block-b"></div>
+                <div class="ui-block-c"></div>
+            </div><!-- /grid-b -->
+        </div>
+        <ul data-role="listview" data-theme="w">
+            <!--<li data-role="list-divider" role="heading">
+                Maxim Alternatives to Industry Standard Parts
+            </li>-->
+            <li class="disable ui-li ui-li-static ui-body-c">Analog Devices</li>
+            <li><a href="data-delay.view">Data Delay</a></li>
+            <li class="disable ui-li ui-li-static ui-body-c">Infineon</li>
+            <li class="disable ui-li ui-li-static ui-body-c">Intel</li>
+            <li><a href="international-rectifier.view">International Rectifier</a></li>
+            <li class="disable ui-li ui-li-static ui-body-c">Linear Technology</li>
+            <li><a href="macom.view">Macom</a></li>
+            <li><a href="monolithic-power-systems.view">Monolithic Power Systems</a></li>
+            <li><a href="motorola.view">Motorola</a></li>
+            <li class="disable ui-li ui-li-static ui-body-c">National Semiconductor</li>
+            <li class="disable ui-li ui-li-static ui-body-c">On Semiconductor</li>
+            <li class="disable ui-li ui-li-static ui-body-c">Philips</li>
+            <li><a href="ricoh.view">Ricoh</a></li>
+            <li class="disable ui-li ui-li-static ui-body-c">Seiko</li>
+            <li class="disable ui-li ui-li-static ui-body-c">Sipex</li>
+            <li class="disable ui-li ui-li-static ui-body-c">STMicroelectronics</li>
+            <li class="disable ui-li ui-li-static ui-body-c">Texas Instruments</li>
+            <li><a href="torex.view">Torex</a></li>
+            <li class="disable ui-li ui-li-static ui-body-c">Toshiba</li>
+            <li><a href="transwitch.view">Transwitch</a></li>
+            <li class="disable ui-li ui-li-static ui-body-c">Unitrode</li>
+            <li><a href="vishay.view">Vishay</a></li>
+            <li class="disable ui-li ui-li-static ui-body-c">Xicor</li>
+        </ul>
+    </div>
+</div>

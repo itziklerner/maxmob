@@ -1,0 +1,214 @@
+<div data-role="page" data-add-back-btn="true" id="video-list" data-theme="w">
+    <div data-role="header" class="maxim-header"  data-theme="w">
+        <h1></h1>
+    </div>
+    <div data-role="content" class="ui-content-xx">
+        <div class="maxim-title" align="center" id="head-select-device">
+            <div class="ui-grid-a">
+                <div class="ui-block-a"><img src="../images/logo_maxim.png"/></div>
+                <div class="ui-block-b">Video</div>
+            </div><!-- /grid-a -->
+            <div class="ui-grid-b color-row">
+                <div class="ui-block-a"></div>
+                <div class="ui-block-b"></div>
+                <div class="ui-block-c"></div>
+            </div><!-- /grid-b -->
+        </div>
+        <ul data-role="listview" data-filter="true" data-theme="w">
+            <li>
+                <a class="ui-link-inherit" href="video.view" rel="http://www.youtube.com/v/VChe60jZKxI">
+                    <img class="ui-li-thumb" src="../images/default.jpg">
+                    <h3 class="ui-li-heading">IC Obsolescence Mitigation</h3>
+                    <p class="ui-li-desc">24.06.2011</p>
+                </a>
+            </li>
+            <li>
+                <a class="ui-link-inherit"  href="video.view" rel="http://www.youtube.com/v/3c1t_h8pdMc">
+                    <img class="ui-li-thumb" src="../images/BuildSmarter.jpg">
+                    <h3 class="ui-li-heading">Build a Smarter Grid with G3-PLC (Japanese Version)</h3>
+                    <p class="ui-li-desc">23.06.2011</p>
+                </a>
+            </li>
+            <li>
+                <a class="ui-link-inherit" href="video.view" rel="http://www.youtube.com/v/uAFuUu6YEcc">
+                    <img class="ui-li-thumb" src="../images/MaximWins.jpg">
+                    <h3 class="ui-li-heading">Maxim Wins President's Award from Rockwell Collins</h3>
+                    <p class="ui-li-desc">16.06.2011</p>
+                </a>
+            </li>
+            <li>
+                <a class="ui-link-inherit" href="video.view" rel="http://www.youtube.com/v/uAFuUu6YEcc">
+                    <img class="ui-li-thumb" src="../images/img1.jpg">
+                    <h3 class="ui-li-heading">Maxim Wins President's Award from Rockwell Collins</h3>
+                    <p class="ui-li-desc">16.06.2011</p>
+                </a>
+            </li>
+            <li>
+
+                <a class="ui-link-inherit" href="video.view" rel="http://www.youtube.com/v/B3BZcEA1h58">
+                    <img class="ui-li-thumb" src="../images/img2.jpg">
+                    <h3 class="ui-li-heading">Maxim ADCs for PRTD Applications</h3>
+                    <p class="ui-li-desc">15.06.2011</p>
+                </a>
+            </li>
+            <li>
+
+                <a class="ui-link-inherit" href="video.view" rel="http://www.youtube.com/v/F_LV-vxr24E">
+                    <img class="ui-li-thumb" src="../images/img3.jpg">
+                    <h3 class="ui-li-heading">MAX17710 - Energy Harvesting Demo</h3>
+                    <p class="ui-li-desc">15.06.2011</p>
+                </a>
+            </li>
+            <li>
+
+                <a class="ui-link-inherit" href="video.view" rel="http://www.youtube.com/v/qWr5rl22iIA">
+                    <img class="ui-li-thumb" src="../images/img4.jpg">
+                    <h3 class="ui-li-heading">MAX34440/MAX34441</h3>
+                    <p class="ui-li-desc">13.06.2011</p>
+                </a>
+            </li>
+            <li>
+                <a class="ui-link-inherit" href="video.view" rel="http://www.youtube.com/v/MAJOfqTq9lI">
+                    <img class="ui-li-thumb" src="../images/img5.jpg">
+                    <h3 class="ui-li-heading">Build a Smarter Grid with G3-PLC</h3>
+                    <p class="ui-li-desc">02.06.2011</p>
+                </a>
+            </li>
+
+            <li>
+                <a class="ui-link-inherit" href="video.view" rel="http://www.youtube.com/v/wpJY3BRs8RY">
+                    <img class="ui-li-thumb" src="../images/img6.jpg">
+                    <h3 class="ui-li-heading">MAX16840</h3>
+                    <p class="ui-li-desc">19.05.2011</p>
+                </a>
+            </li>
+
+            <li>
+                <a class="ui-link-inherit" href="video.view" rel="http://www.youtube.com/v/oOsGjAqdFUk">
+                    <img class="ui-li-thumb" src="../images/img7.jpg">
+                    <h3 class="ui-li-heading">Introduction to the Security Manager Product Family</h3>
+                    <p class="ui-li-desc">04.05.2011</p>
+                </a>
+            </li>
+
+            <li>
+                <a class="ui-link-inherit" href="video.view" rel="http://www.youtube.com/v/N1gpXcpTYQo">
+                    <img class="ui-li-thumb" src="../images/img8.jpg">
+                    <h3 class="ui-li-heading">MAX9618: The Industrys Best Precision Op Amp Under 100µA</h3>
+                    <p class="ui-li-desc">03.05.2011</p>
+                </a>
+            </li>
+
+            <li>
+                <a class="ui-link-inherit" href="video.view" rel="http://www.youtube.com/v/tzU4U8VFFww">
+                    <img class="ui-li-thumb" src="../images/img9.jpg">
+                    <h3 class="ui-li-heading">Maxim Lead (SnPb) Finished Parts, High Volume</h3>
+                    <p class="ui-li-desc">18.03.2011</p>
+                </a>
+            </li>
+
+            <li>
+                <a class="ui-link-inherit" href="video.view" rel="http://www.youtube.com/v/X1Ir2zJ1ecA">
+                    <img class="ui-li-thumb" src="../images/img10.jpg">
+                    <h3 class="ui-li-heading">MAX11046 16bit SAR Simultaneous Sampling</h3>
+                    <p class="ui-li-desc">17.03.2011</p>
+                </a>
+            </li>
+
+            <li>
+                <a class="ui-link-inherit" href="video.view" rel="http://www.youtube.com/v/y64N_T5PEaA">
+                    <img class="ui-li-thumb" src="../images/img11.jpg">
+                    <h3 class="ui-li-heading">MAX11040K</h3>
+                    <p class="ui-li-desc">17.03.2011</p>
+                </a>
+            </li>
+
+            <li>
+                <a class="ui-link-inherit" href="video.view" rel="<http://www.youtube.com/v/40hHFBS3-bE">
+                    <img class="ui-li-thumb" src="../images/img12.jpg">
+                    <h3 class="ui-li-heading">MAX11040K 24bit Delta Sigma Simultaneous Sampling</h3>
+                    <p class="ui-li-desc">17.03.2011</p>
+                </a>
+            </li>
+
+            <li>
+                <a class="ui-link-inherit" href="video.view" rel="http://www.youtube.com/v/qB4Ue_TAsKg">
+                    <img class="ui-li-thumb" src="../images/img13.jpg">
+                    <h3 class="ui-li-heading">Maxim Lead (SnPb) Finished parts, Low Volume</h3>
+                    <p class="ui-li-desc">28.02.2011</p>
+                </a>
+            </li>
+
+            <li>
+                <a class="ui-link-inherit" href="video.view" rel="http://www.youtube.com/v/ohm9aoUOzT0">
+                    <img class="ui-li-thumb" src="../images/img14.jpg">
+                    <h3 class="ui-li-heading">MAX44009 Ambient Light Sensor</h3>
+                    <p class="ui-li-desc">10.01.2011</p>
+                </a>
+            </li>
+
+            <li>
+                <a class="ui-link-inherit" href="video.view" rel="http://www.youtube.com/v/huQpIfEQ8fQ">
+                    <img class="ui-li-thumb" src="../images/img15.jpg">
+                    <h3 class="ui-li-heading">Most Flexible Multi-Channel I2C Interface ADC Family with Tiny Packages</h3>
+                    <p class="ui-li-desc">21.12.2010</p>
+                </a>
+            </li>
+
+            <li>
+                <a class="ui-link-inherit" href="video.view" rel="http://www.youtube.com/v/Z5740reLs_M">
+                    <img class="ui-li-thumb" src="../images/img16.jpg">
+                    <h3 class="ui-li-heading">Touch Interface Technology Tutorial</h3>
+                    <p class="ui-li-desc">30.11.2010</p>
+                </a>
+            </li>
+
+            <li>
+                <a class="ui-link-inherit" href="video.view" rel="http://www.youtube.com/v/Gmbi72psXm8">
+                    <img class="ui-li-thumb" src="../images/img17.jpg">
+                    <h3 class="ui-li-heading">MAX11861 Capacitive Button Controller</h3>
+                    <p class="ui-li-desc">30.11.2010 </p>
+                </a>
+            </li>
+
+            <li>
+                <a class="ui-link-inherit" href="video.view" rel="http://www.youtube.com/v/crqRSRTU1v8">
+                    <img class="ui-li-thumb" src="../images/img18.jpg">
+                    <h3 class="ui-li-heading">MAX11835 Haptic Actuator Controller</h3>
+                    <p class="ui-li-desc">29.11.2010</p>
+                </a>
+            </li>
+
+            <li>
+                <a class="ui-link-inherit" href="video.view" rel="http://www.youtube.com/v/TBzZnFeftRI">
+                    <img class="ui-li-thumb" src="../images/img19.jpg">
+                    <h3 class="ui-li-heading">MAX11811 Resistive Touch with Motor Haptics Driver</h3>
+                    <p class="ui-li-desc">29.11.2010</p>
+                </a>
+            </li>
+
+            <li>
+                <a class="ui-link-inherit" href="video.view" rel="http://www.youtube.com/v/UKLhn4nltK4">
+                    <img class="ui-li-thumb" src="../images/img20.jpg">
+                    <h3 class="ui-li-heading">MAX11851 & MAX11835 Capacitive Touch and Haptics</h3>
+                    <p class="ui-li-desc">24.11.2010</p>
+                </a>
+            </li>
+
+            <li>
+                <a class="ui-link-inherit" href="video.view" rel="http://www.youtube.com/v/t6K5Xd03eXo">
+                    <img class="ui-li-thumb" src="../images/img21.jpg">
+                    <h3 class="ui-li-heading">MAX11850 7" Capacitive Touch Panel</h3>
+                    <p class="ui-li-desc">24.11.2010</p>
+                </a>
+            </li>
+            <li>
+                <a class="ui-link-inherit" href="video.view" rel="http://www.youtube.com/v/OhQMmOA0ltg">
+                    <img class="ui-li-thumb" src="../images/img22.jpg">
+                    <h3 class="ui-li-heading">MAX11200</h3>
+                    <p class="ui-li-desc">15.10.2010</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

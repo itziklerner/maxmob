@@ -1,0 +1,32 @@
+<div data-role="page" data-add-back-btn="true" id="app-notes" data-theme="w">
+    <div data-role="header" class="maxim-header"  data-theme="w">
+        <h1>Application Notes</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+    </div>
+    <div data-role="content" class="ui-content-xx">
+    	<div class="maxim-title" align="center" id="head-select-device">
+            <div class="ui-grid-a">
+                <div class="ui-block-a"><img src="../images/logo_maxim.png"/></div>
+                <div class="ui-block-b">Technical Documents</div>
+            </div><!-- /grid-a -->
+            <div class="ui-grid-b color-row">
+                <div class="ui-block-a"></div>
+                <div class="ui-block-b"></div>
+                <div class="ui-block-c"></div>
+            </div><!-- /grid-b -->
+        </div>
+        <ul data-role="listview" data-theme="w">
+            <li><a href="wire-and-ibutton-app-notes.view">1-Wire® Devices</a></li>
+            <li class="disable ui-li ui-li-static ui-body-c ui-bar-list">Amplifiers and Comparators</li>
+            <li class="disable ui-li ui-li-static ui-body-c ui-bar-list">Analog Switches and Multiplexers</li>
+            <li class="ui-bar-list"><a href="led-lighting-app-notes.view">LED Lighting</a></li>
+            <li class="disable ui-li ui-li-static ui-body-c ui-bar-list">Automotive</li>
+            <li class="disable ui-li ui-li-static ui-body-c ui-bar-list">Clock Generation and Distribution</li>
+            <li class="disable ui-li ui-li-static ui-body-c ui-bar-list">Data Converters, S/Hs, and AFEs</li>
+            <li class="disable ui-li ui-li-static ui-body-c ui-bar-list">Digital Potentiometers</li>
+            <li class="disable ui-li ui-li-static ui-body-c ui-bar-list">Energy-Measurement and Metering SoCs</li>
+            <li class="disable ui-li ui-li-static ui-body-c ui-bar-list">Filters (Analog)</li>
+            <li class="disable ui-li ui-li-static ui-body-c ui-bar-list">High-Frequency ASICs</li>
+        </ul>
+    </div>
+</div>

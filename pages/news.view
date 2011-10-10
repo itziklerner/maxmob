@@ -1,0 +1,27 @@
+<div data-role="page" data-add-back-btn="true" id="whats-new" data-theme="w">
+    <div data-role="header" class="maxim-header"  data-theme="w">
+        <h1></h1>
+    </div>
+    <div data-role="content" class="ui-content-xx">
+        <div class="maxim-title" align="center" id="head-select-device">
+            <div class="ui-grid-a">
+                <div class="ui-block-a"><img src="../images/logo_maxim.png"/></div>
+                <div class="ui-block-b">What's New</div>
+            </div><!-- /grid-a -->
+            <div class="ui-grid-b color-row">
+                <div class="ui-block-a"></div>
+                <div class="ui-block-b"></div>
+                <div class="ui-block-c"></div>
+            </div><!-- /grid-b -->
+        </div>
+        <!--<div class="maxim-title" align=”center”>Home > Whats new</div>-->
+        <ul data-role="listview" data-theme="w">
+            <li class="ui-bar-list"><a href="feed.view" class="ui-link-inherit" rel="newproduct_prs">New Product Press Releases</a></li>
+            <li class="ui-bar-list"><a href="feed.view" class="ui-link-inherit" rel="application_notes">Application Notes</a></li>
+            <li class="ui-bar-list"><a href="feed.view" class="ui-link-inherit" rel="business_prs">Business Press Releases</a></li>
+            <li class="ui-bar-list"><a href="feed.view" class="ui-link-inherit" rel="datasheets">Data Sheets</a></li>
+            <li class="ui-bar-list"><a href="feed.view" class="ui-link-inherit" rel="design_guides">Design Guides</a></li>
+            <li class="ui-bar-list"><a href="feed.view" class="ui-link-inherit" rel="glossary">EE-Glossary Term of the Day</a></li>
+        </ul>
+    </div>
+</div>

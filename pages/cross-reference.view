@@ -1,0 +1,22 @@
+<div data-role="page" data-add-back-btn="true" id="cross-reference" data-theme="w">
+    <div data-role="header" class="maxim-header"  data-theme="w">
+        <h1>Cross reference</h1>
+    </div>
+    <div data-role="content" class="ui-content-xx">
+        <div class="maxim-title" align="center" id="head-select-device">
+            <div class="ui-grid-a">
+                <div class="ui-block-a"><img src="../images/logo_maxim.png"/></div>
+                <div class="ui-block-b">Home</div>
+            </div><!-- /grid-a -->
+            <div class="ui-grid-b color-row">
+                <div class="ui-block-a"></div>
+                <div class="ui-block-b"></div>
+                <div class="ui-block-c"></div>
+            </div><!-- /grid-b -->
+        </div>
+        <ul data-role="listview" data-theme="w">
+            <li><a href="search.view" onclick="searchType = 0">Cross-Reference Search</a></li>
+            <li><a href="alternatives.view">Maxim Alternatives to Industry Standard Parts</a></li>
+        </ul>
+    </div>
+</div>

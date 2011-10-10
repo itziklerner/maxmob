@@ -1,0 +1,60 @@
+<div data-role="page" data-add-back-btn="true" id="wire-and-ibutton-app-notes" data-theme="w">
+    <div data-role="header" class="maxim-header"  data-theme="w">
+        <h1>1-Wire® Devices</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+    </div>
+    <div data-role="content" class="ui-content-xx">
+        <div class="maxim-title" align="center" id="head-select-device">
+            <div class="ui-grid-a">
+                <div class="ui-block-a"><img src="../images/logo_maxim.png"/></div>
+                <div class="ui-block-b">Application Notes</div>
+            </div><!-- /grid-a -->
+            <div class="ui-grid-b color-row">
+                <div class="ui-block-a"></div>
+                <div class="ui-block-b"></div>
+                <div class="ui-block-c"></div>
+            </div><!-- /grid-b -->
+        </div>
+        <ul data-role="listview" data-theme="w">
+            <li>
+                <a href="http://pdfserv.maxim-ic.com/en/an/AN1097.pdf" >
+                    White Paper 2: Using the 1-Wire® Public Domain Kit
+                </a>
+            </li>
+            <li>
+                <a href="http://pdfserv.maxim-ic.com/en/an/AN1098.pdf" >
+                    White Paper 3: Why are 1-Wire SHA-1 Devices Secure?
+                </a>
+            </li>
+            <li>
+                <a href="http://pdfserv.maxim-ic.com/en/an/AN1099.pdf" >
+                    White Paper 4: Glossary of 1-Wire SHA-1 Terms
+                </a>
+            </li>
+            <li class="disable ui-li ui-li-static ui-body-c">
+                White Paper 5: Using 1-Wire APIs for Data Sheet Commands
+            </li>
+            <li class="disable ui-li ui-li-static ui-body-c">
+                1-Wire File Structure
+            </li>
+            <li class="disable ui-li ui-li-static ui-body-c">
+                Embedding the 1-Wire® Master in FPGAs or ASICs
+            </li>
+             <li>
+                <a href="http://pdfserv.maxim-ic.com/en/an/AN120.pdf" >
+                   Using an API to Control the DS1WM 1-Wire® Bus Master
+                </a>
+            </li>
+            <li class="disable ui-li ui-li-static ui-body-c">
+                White Paper 8: 1-Wire® SHA-1 Overview
+            </li>
+            <li class="disable ui-li ui-li-static ui-body-c">
+                1-Wire® Communication Through Software
+            </li>
+            <li class="disable ui-li ui-li-static ui-body-c">
+                Guidelines for Reliable Long Line 1-Wire® Networks
+            </li>
+
+        </ul>
+    </div>
+</div>

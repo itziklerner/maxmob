@@ -1,0 +1,40 @@
+<div data-role="page" data-add-back-btn="true" id="motorola" data-theme="w">
+    <div data-role="header" class="maxim-header"  data-theme="w">
+        <h1>Motorola</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+    </div>
+    <div data-role="content" class="ui-content-xx">
+        <div class="maxim-title" align="center" id="head-select-device">
+            <div class="ui-grid-a">
+                <div class="ui-block-a"><img src="../images/logo_maxim.png"/></div>
+                <div class="ui-block-b">Cross reference</div>
+            </div><!-- /grid-a -->
+            <div class="ui-grid-b color-row">
+                <div class="ui-block-a"></div>
+                <div class="ui-block-b"></div>
+                <div class="ui-block-c"></div>
+            </div><!-- /grid-b -->
+        </div>
+        <ul data-role="listview" data-theme="w">
+
+            <li>
+                <a href="http://www.maxim-ic.com/alternatives.cfm/part/MC1488/pk/104" >
+                    Motorola MC1488
+                    Quad Line Driver
+                </a>
+            </li>
+            <li>                        
+                <a href="http://www.maxim-ic.com/alternatives.cfm/part/MC34119/pk/45" >
+                    MOTOROLA MC34119
+                    Low Power Audio Amplifier   
+                </a>
+            </li>
+            <li>                        
+                <a href="http://www.maxim-ic.com/alternatives.cfm/part/MCF5282/pk/400" >
+                    Motorola MCF5282
+                    32-bit ColdFire Core Integrated with Ethernet, Flash and CAN.
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

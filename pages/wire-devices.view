@@ -1,0 +1,65 @@
+<div data-role="page" data-add-back-btn="true" id="wire-devices" data-theme="w">
+    <div data-role="header" class="maxim-header"  data-theme="w">
+        <h1>1-Wire® Devices</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+    </div>
+    <div data-role="content" class="ui-content-xx">
+        <div class="maxim-title" align="center" id="head-select-device">
+            <div class="ui-grid-a">
+                <div class="ui-block-a"><img src="../images/logo_maxim.png"/></div>
+                <div class="ui-block-b">Application Notes</div>
+            </div><!-- /grid-a -->
+            <div class="ui-grid-b color-row">
+                <div class="ui-block-a"></div>
+                <div class="ui-block-b"></div>
+                <div class="ui-block-c"></div>
+            </div><!-- /grid-b -->
+        </div>
+        <ul data-role="listview" data-theme="w">
+            <li>
+                <a href="http://pdfserv.maxim-ic.com/en/an/AN4659.pdf" > 
+                    Blood Glucose Meters
+                </a>
+            </li>
+            <li>
+                <a href="http://pdfserv.maxim-ic.com/en/an/AN4702.pdf" >
+                    Easily Add Memory, Security, Monitoring, and Control to Medical Sensors and Consumables
+                </a>
+            </li>
+
+
+            <li class="disable ui-li ui-li-static ui-body-c">
+                Overview of 1-Wire® Technology and Its Use
+            </li>
+            <li>
+                <a href="http://pdfserv.maxim-ic.com/en/an/AN148.pdf" >
+                   Guidelines for Reliable Long Line 1-Wire® Networks
+                </a>
+            </li>
+            <li class="disable ui-li ui-li-static ui-body-c">
+                Protecting 5V 1-Wire® Slaves from Overvoltage Exposure
+            </li>
+            <li class="disable ui-li ui-li-static ui-body-c">
+                Protecting the R&D Investment—Two-Way Authentication and Secure Soft-Feature Settings
+            </li>
+            <li class="disable ui-li ui-li-static ui-body-c">
+                Serial Digital Data Networks
+            </li>
+             <li>
+                <a href="http://pdfserv.maxim-ic.com/en/an/AN4671.pdf" >
+                   Improve Sensor Performance and Reduce SNR in Pulse Oximeter Designs
+                </a>
+            </li>
+            <li class="disable ui-li ui-li-static ui-body-c">
+                Temperature-Based Fan Control Using the MAXQ2000 Microcontroller
+            </li>
+            <li class="disable ui-li ui-li-static ui-body-c">
+                Using a UART to Implement a 1-Wire Bus Master
+            </li>
+            <li class="disable ui-li ui-li-static ui-body-c">
+                White Paper 8: 1-Wire® SHA-1 Overview
+            </li>
+
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,39 @@
+<div data-role="page" data-add-back-btn="true" id="monolithic-power-systems" data-theme="w">
+    <div data-role="header" class="maxim-header"  data-theme="w">
+        <h1>Monolithic Power System</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+    </div>
+    <div data-role="content" class="ui-content-xx">
+        <div class="maxim-title" align="center" id="head-select-device">
+            <div class="ui-grid-a">
+                <div class="ui-block-a"><img src="../images/logo_maxim.png"/></div>
+                <div class="ui-block-b">Cross reference</div>
+            </div><!-- /grid-a -->
+            <div class="ui-grid-b color-row">
+                <div class="ui-block-a"></div>
+                <div class="ui-block-b"></div>
+                <div class="ui-block-c"></div>
+            </div><!-- /grid-b -->
+        </div>
+        <ul data-role="listview" data-theme="w">
+            <li>
+                <a href="http://www.maxim-ic.com/alternatives.cfm/part/MC1488/pk/104" >
+                    Semtech ACS8530
+                    Synchronous Equipment Timing Source for Stratum 2/3E/3 Systems
+                </a>
+            </li>
+            <li>                        
+                <a href="http://www.maxim-ic.com/alternatives.cfm/part/MC34119/pk/45" >
+                    Monolithic Power Systems MP7722
+                    20W x 2 Class-D Audio Power Amplifier 
+                </a>
+            </li>
+            <li>                        
+                <a href="http://www.maxim-ic.com/alternatives.cfm/part/MCF5282/pk/400" >
+                    SEMTECH SC1110
+                    Sink and Source DC/DC Controller for Termination Power Supply Applications
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'iPhone keyboard';
+    src: url('iphone-keyboard.ttf');
+}
+
+#ipad-keyboard {
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    border-top:1px solid #3A3D42;
+    
+    background:#757D8A;
+    background-image:-moz-linear-gradient(#9098A3, #454f5d);
+    background-image:-webkit-gradient(linear, left top, left bottom, from(#9098A3), to(#454f5d));
+    
+    box-shadow:0 1px 0 rgba(255,255,255,.3) inset;
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,.3) inset;
+    -webkit-box-shadow:0 1px 0 rgba(255,255,255,.3) inset;
+}
+
+    #ipad-keyboard .row {
+        text-align: center;
+        margin:.5em .1em .25em;
+        list-style:none;
+    }
+    
+    #ipad-keyboard .button {
+        color:#black;
+        
+        text-decoration:none;
+        text-align:center;
+        text-shadow:0 1px 1px white;
+        font-weight:bold;
+        
+        border:0;
+        border-top:1px solid rgba(255,255,255,.45);     
+        
+        background:#ECEDEF;
+        background-image:-moz-linear-gradient(#f8f8f9, #dddfe1);
+        background-image:-webkit-gradient(linear, left top, left bottom, from(#f8f8f9), to(#dddfe1));
+        
+        border-radius:4px;
+        -moz-border-radius:4px;
+        -webkit-border-radius:4px;
+        
+        box-shadow:0 1px 3px rgba(0,0,0,.7), 0 1px 0 rgba(0,0,0,.3);
+        -moz-box-shadow:0 1px 3px rgba(0,0,0,.7), 0 1px 0 rgba(0,0,0,.3);
+        -webkit-box-shadow:0 1px 3px rgba(0,0,0,.7), 0 1px 0 rgba(0,0,0,.3);
+        
+        float:none;
+        display:inline-block;
+        width:2.5em;
+        height:2.5em;
+        line-height: 2.5em;
+        margin:0 0.6%;
+        padding:.02em 0 .03em;
+        
+        font-size:1.35em;
+        font-family:Helvetica, Arial, sans-serif;
+    }
+    
+    #ipad-keyboard .button.disable {
+        color:gray;
+    }
+    
+    #ipad-keyboard .button.specialkey {
+        background:#757D8A;
+        background-image:-moz-linear-gradient(#7f8792, #535b68);
+        background-image:-webkit-gradient(linear, left top, left bottom, from(#7f8792), to(#535b68));
+        
+        color:white;
+        text-shadow:0 -1px 1px rgba(0,0,0,.5);
+    }
+    
+    #ipad-keyboard .button.backspace {
+        font-family:'iPhone keyboard', Helvetica, sans-serif;
+        width:12%;
+        float:right;
+    }
+    
+    #ipad-keyboard .button.shift {
+        font-family:'iPhone keyboard', Helvetica, sans-serif;
+        width:12%;
+        float:left;
+    }

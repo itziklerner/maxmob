@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+
+        <title>Maxim</title>
+        
+        <link rel="stylesheet" href="css/jquery.mobile-1.0b2.css" />
+        <link rel="stylesheet" href="css/jquery.mobile.scrollview.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        
+        <script src="script/jquery.js" type="text/javascript"></script>
+        <script src="script/jquery.mobile-1.0b2.js" type="text/javascript"></script>
+        <script src="script/scrollview.js" type="text/javascript"></script>
+        <script src="script/iscroll.js" type="text/javascript"></script>
+        
+        <script src="script/script.js" type="text/javascript"></script>
+        <script src="script/news.js" type="text/javascript"></script>
+        <script src="script/jquery.jgfeed.js" type="text/javascript"></script>
+        <script src="script/product-selector.js" type="text/javascript"></script>
+        <script src="script/video.js" type="text/javascript"></script>
+        <script src="script/search.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div data-role="page" id="home">
+            <div data-role="header" class="maxim-header"  data-theme="z">
+                <h1>Mobile &nbsp;<span>BETA</span></h1>
+            </div>
+			<div class="maxim-title" align="center" id="head-select-device">
+                <div class="ui-grid-a">
+                    <div class="ui-block-a"><img src="images/logo_maxim.png"/></div>
+                    <div class="ui-block-b"><span class="ui-icon ui-icon-arrow-l ui-icon-shadow"></span>Home</div>
+                </div><!-- /grid-a -->
+                <div class="ui-grid-b color-row">
+                    <div class="ui-block-a"></div>
+                    <div class="ui-block-b"></div>
+                    <div class="ui-block-c"></div>
+                </div><!-- /grid-b -->
+            </div>
+			
+			<div data-role="fieldcontain" align="center" width="10%" id="search-form-main">
+				 <div data-role="fieldcontain" >
+                    <input type="search" placeholder="Search..." name="crs" id="search-input-main" value=""/>
+                </div>
+            </div>
+            <div data-role="content" data-theme="w" class="ui-content-xx">
+                <div id="home-content">
+                    <ul data-role="listview" data-theme="w">
+                        <li class="ui-bar-list"><a href="pages/news.view" >What's New</a></li>
+                        <li class="ui-bar-list"><a href="pages/product-selector.view">Product Selector</a></li>
+                        <li class="ui-bar-list"><a href="pages/cross-reference.view">Cross Reference</a></li>
+                        <li class="ui-bar-list"><a href="pages/video-list.view">Video Library</a></li>
+                        <li class="ui-bar-list"><a href="pages/technical-documents.view">Technical Documents</a></li>
+                        <li class="ui-bar-list"><a href="http://www.maxim-ic.com" rel="external">Maxim Desktop Website</a></li>
+                    </ul>
+                </div>
+                <div id="search_conent-main" style="display: none">
+                    <div id="search-scrolllistview-main">
+                        <div id="search-scroller-main">
+                            <ul class='ui-listview' data-role='listview' data-theme='w' id="search-list-main" >
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+

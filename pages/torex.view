@@ -1,0 +1,33 @@
+<div data-role="page" data-add-back-btn="true" id="torex" data-theme="w">
+    <div data-role="header" class="maxim-header"  data-theme="w">
+        <h1>Torex</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+    </div>
+    <div data-role="content" class="ui-content-xx">
+        <div class="maxim-title" align="center" id="head-select-device">
+            <div class="ui-grid-a">
+                <div class="ui-block-a"><img src="../images/logo_maxim.png"/></div>
+                <div class="ui-block-b">Cross reference</div>
+            </div><!-- /grid-a -->
+            <div class="ui-grid-b color-row">
+                <div class="ui-block-a"></div>
+                <div class="ui-block-b"></div>
+                <div class="ui-block-c"></div>
+            </div><!-- /grid-b -->
+        </div>
+        <ul data-role="listview" data-theme="w">
+            <li>
+                <a href="http://www.maxim-ic.com/alternatives.cfm/part/XC61C/pk/58" >
+                    TOREX XC61C
+                    Standard Voltage Detector
+                </a>
+            </li>
+            <li>                        
+                <a href="http://www.maxim-ic.com/alternatives.cfm/part/XC61F/pk/57"  >
+                    TOREX XC61F
+                    Standard Voltage Detector
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

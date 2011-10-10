@@ -1,0 +1,38 @@
+<div data-role="page" data-add-back-btn="true" id="search" data-theme="w">
+    <div data-role="header" class="maxim-header" data-theme="w">
+        <h1></h1>
+        <a href="#home" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+    </div>
+        	<div class="maxim-title" align="center" id="head-select-device">
+            <div class="ui-grid-a">
+                <div class="ui-block-a"><img src="../images/logo_maxim.png"/></div>
+                <div class="ui-block-b">Search</div>
+            </div><!-- /grid-a -->
+            <div class="ui-grid-b color-row">
+                <div class="ui-block-a"></div>
+                <div class="ui-block-b"></div>
+                <div class="ui-block-c"></div>
+            </div><!-- /grid-b -->
+        </div>
+    <div data-role="navbar">
+		<ul>
+			<li><a id="radio-choice-1" class="ui-btn-active">Cross reference</a></li>
+			<li><a id="radio-choice-2">Part Number</a></li>
+		</ul>
+	</div>
+    <center>
+        <div id="search-form">
+            <div data-role="fieldcontain" >
+                <input type="search" name="crs" id="search-input" value=""/>
+            </div>
+        </div>
+        <div data-role="content" data-inset="true" data-theme="z" style="overflow-x: hidden; overflow-y: hidden; position: relative;">
+            <div id="search-scrolllistview">
+                <div id="search-scroller">
+                    <ul class='ui-listview' data-role='listview' data-theme='w' id="search-list" >
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </center>
+</div>

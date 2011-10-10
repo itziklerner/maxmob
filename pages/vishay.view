@@ -1,0 +1,33 @@
+<div data-role="page" data-add-back-btn="true" id="vishay" data-theme="w">
+    <div data-role="header" class="maxim-header"  data-theme="w">
+        <h1>Vishay</h1>
+        <a href="#home" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+    </div>
+    <div data-role="content" class="ui-content-xx">
+        <div class="maxim-title" align="center" id="head-select-device">
+            <div class="ui-grid-a">
+                <div class="ui-block-a"><img src="../images/logo_maxim.png"/></div>
+                <div class="ui-block-b">Cross reference</div>
+            </div><!-- /grid-a -->
+            <div class="ui-grid-b color-row">
+                <div class="ui-block-a"></div>
+                <div class="ui-block-b"></div>
+                <div class="ui-block-c"></div>
+            </div><!-- /grid-b -->
+        </div>
+        <ul data-role="listview" data-theme="w">
+            <li>
+                <a href="http://www.maxim-ic.com/alternatives.cfm/part/Si9110/pk/16" >
+                    VISHAY Si9110
+                    High-Voltage Switchmode Controllers
+                </a>
+            </li>
+            <li>                        
+                <a href="http://www.maxim-ic.com/alternatives.cfm/part/SOT23/pk/437"  >
+                    Vishay SOT23
+                    ±2kV ESD Protected SOT23 Precision Resistor Dividers
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>

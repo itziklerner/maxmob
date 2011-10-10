@@ -1,0 +1,59 @@
+<div data-role="page" data-add-back-btn="true" id="view-select-device" data-theme="w">
+    <div data-role="header" class="maxim-header"  data-theme="w">
+        <h1></h1>
+        <a href="#home" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+    </div>
+    <div data-role="content" id="select-device-content" >
+        <!--<div class="maxim-title" align="center" id="select-device-title"></div>-->
+        <ul data-role="listview" data-theme="w"  data-inset="true">
+            <li data-role="list-divider" role="heading" id="head-select-device">
+
+            </li> 
+            <div data-role="collapsible" data-collapsed="true" id="select-device-description">
+                <h3>Description</h3>
+                <p></p>
+            </div>
+            <div data-role="collapsible" data-collapsed="true" id="select-device-datasheet">
+                <h3>Datasheet</h3>
+
+            </div>
+            <div data-role="collapsible" data-collapsed="true" id="select-device-keyFeatures">
+                <h3>Key Features</h3>
+                <p></p>
+            </div>
+            <div data-role="collapsible" data-collapsed="true">
+                <h3>Diagrams</h3>
+                <p>Diagrams</p>
+            </div>
+            <div data-role="collapsible" data-collapsed="true" id="select-device-more">
+                <h3>More info</h3>
+            </div>
+            <div data-role="collapsible" data-collapsed="true">
+                <h3>Buy</h3>
+                 <table summary="This table lists all the JetBlue flights."> 
+                      <caption></caption> 
+                      <thead> 
+                        <tr>
+                          <th scope="col">1-24 </th>  
+                          <th scope="col">25-99</th>  
+                          <th scope="col">100-499</th>  
+                          <th scope="col">500-999</th>  
+                          <th scope="col">1000 Up</th> 
+                        </tr> 
+                      </thead> 
+                      <tbody> 
+                      <tr> 
+                        <td>$6,43</td> 
+                        <td>$4,28</td> 
+                        <td>$3,10</td> 
+                        <td>$2,68</td> 
+                        <td>$2,44</td>
+                      </tr> 
+
+                      </tbody> 
+                    </table> 
+                    <a  data-role="button"  data-theme="z" href="#purchase">Buy</a> 
+            </div>
+        </ul>
+    </div>
+</div>

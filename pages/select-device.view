@@ -1,0 +1,53 @@
+<div data-role="page" data-add-back-btn="true" id="select-device">
+    <div data-role="header" class="maxim-header"  data-theme="w">
+        <h1></h1>
+        <a href="#home" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+    </div>
+    <div data-role="content" class="ui-content-xx" id="select-device-content" data-theme="w">
+        <div class="maxim-title" align="center" id="head-select-device">
+            <div class="ui-grid-a">
+                <div class="ui-block-a"><img src="../images/logo_maxim.png"/></div>
+                <div class="ui-block-b">Products</div>
+            </div><!-- /grid-a -->
+            <div class="ui-grid-b color-row">
+                <div class="ui-block-a"></div>
+                <div class="ui-block-b"></div>
+                <div class="ui-block-c"></div>
+            </div><!-- /grid-b -->
+        </div>
+        <div id="menu_left" onclick="menuScroll.scrollToPage('prev', 0);return false">
+        </div>
+        <div id="wrapper">
+            <div id="scroller" class="hidden">
+                <ul id="thelist">
+                    
+                </ul>
+            </div>
+        </div>
+        <div id="menu_right" onclick="menuScroll.scrollToPage('next', 0);return false">
+        </div>
+        <div class="both"></div>
+        <div class="ui-grid-b color-row">
+            <div class="ui-block-a"></div>
+            <div class="ui-block-b"></div>
+            <div class="ui-block-c"></div>
+        </div><!-- /grid-b -->
+        <div data-scroll="y" class="test-content" >
+            <div id="desc">
+                
+            </div>
+            <div id="key_f" class="hidden">
+                
+            </div>
+            
+            <div id="app" class="hidden">
+                
+            </div>
+            <div id="diag" class="hidden">
+                <div id="diag_scroll">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
